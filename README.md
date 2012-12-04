@@ -60,7 +60,7 @@ end
 Each assign is filtered through JSON so it's reduced to basic types:
 
 ```ruby
-# app/views/posts/cerate.js.opal
+# app/views/posts/create.js.opal
 
 Document['.post .title'].html    = @post[:title]
 Document['.post .body'].html     = @post[:body]
